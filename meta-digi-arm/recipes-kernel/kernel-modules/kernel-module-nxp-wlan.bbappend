@@ -5,6 +5,8 @@ FILESEXTRAPATHS:prepend := "${THISDIR}/${BPN}:"
 SRC_URI:append = " \
     file://81-iw612-wifi.rules \
     file://load_iw612.sh \
+    file://enable-sdiw624.patch \
+    file://enable-debugging.patch \
 "
 
 do_install:append () {
