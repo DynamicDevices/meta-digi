@@ -1,0 +1,13 @@
+diff --git a/mxm_wifiex/wlan_src/Makefile b/mxm_wifiex/wlan_src/Makefile
+index bf5c5cb..93b7f82 100644
+--- a/mxm_wifiex/wlan_src/Makefile
++++ b/mxm_wifiex/wlan_src/Makefile
+@@ -50,7 +50,7 @@ CONFIG_PCIE9097=n
+ CONFIG_SD9098=y
+ CONFIG_USB9098=n
+ CONFIG_PCIE9098=y
+-CONFIG_SDIW624=n
++CONFIG_SDIW624=y
+ CONFIG_SDAW693=n
+ CONFIG_PCIEIW624=n
+ CONFIG_USBIW624=n
